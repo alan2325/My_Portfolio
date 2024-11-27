@@ -21,6 +21,7 @@
     <section id="home" class="home-section">
         <div class="overlay">
             <h1>Welcome to My Portfolio</h1>
+            <h2>I am Alankumar.P
             <p>This is a brief introduction to who I am and what I do.</p>
         </div>
     </section>
@@ -28,24 +29,54 @@
     <section id="about">
         <h2>About Me</h2>
         <p>Hello, I'm a Python Fullstack developer passionate about building web applications and exploring new technologies.<br>
-             I have experience with Python, Flask, HTML, CSS, and JavaScript.</p>
+        I have experience with Python, Flask, HTML, CSS, and JavaScript.</p><br><br>
+        <h2>Education</h2>
+        <p>Bachelor of Computer Application at Swami Saswathikananda College</p><br>
+        <p>Python Fullstack in Synnefo Solutions</p><br><br>
+        <h2>Skills</h2>
+        <p>Web page Designing</p>
     </section>
 
     <section id="projects">
         <h2>My Projects</h2><br><br>
-        <ul>
-            <li><h2>Project 1: Fresh_Cuts</h2>
-                <p>An online Meat shop where users can buy products online. Built with Django, HTML, CSS, and Bootstrap.</p></li>
-            <li><h2>Project 2: Buy-Easy</h2>
-                <p>This is a simple React project used to add and view products using an API.</p></li>
-            <li><h2>Project 3: Employee Management</h2>
-                <p>An employee management system where you can add, view, and delete employees.</p></li>
-            <li><h2>Project 4: Crime-log</h2>
-                <p>An onlice Crime system where police can register cases through online. Built with Django, Html, Css</p></li>
-            <li><h2>Project 5: My_Portfolio</h2>
-                <p>This portfolio website you're currently viewing! Built with Flask and simple front-end technologies.</p></li>
-        </ul>
+        <div class="project-list">
+            <!-- Project 1 -->
+            <div class="project-item">
+                <img src="{{ url_for('static', filename='images/images.png') }}" alt="Fresh Cuts" class="project-image">
+                <h2>Project 1: Fresh_Cuts</h2>
+                <p>An online meat shop where users can buy products online. Built with Django, HTML, CSS, and Bootstrap.</p>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-item">
+                <img src="{{ url_for('static', filename='images/images (1).jpg') }}" alt="Buy Easy" class="project-image">
+                <h2>Project 2: Buy-Easy</h2>
+                <p>This is a simple React project used to add and view products using an API.</p>
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="project-item">
+                <img src="{{ url_for('static', filename='images/EMS.jpeg') }}" alt="Employee Management" class="project-image">
+                <h2>Project 3: Employee Management</h2>
+                <p>An employee management system where you can add, view, and delete employees.</p>
+            </div>
+    
+            <!-- Project 4 -->
+            <div class="project-item">
+                <img src="{{ url_for('static', filename='images/images.jpg') }}" alt="Crime Log" class="project-image">
+                <h2>Project 4: Crime-log</h2>
+                <p>An online crime system where police can register cases through online. Built with Django, HTML, CSS.</p>
+            </div>
+    
+            <!-- Project 5 -->
+            <div class="project-item">
+                <img src="{{ url_for('static', filename='images/49f28e189617081.Y3JvcCwxMDA2LDc4NywxOTYsMA.jpg') }}" alt="My Portfolio" class="project-image">
+                <h2>Project 5: My_Portfolio</h2>
+                <p>This portfolio website you're currently viewing! Built with Flask and simple front-end technologies.</p>
+            </div>
+        </div>
     </section>
+    
 
     <footer>
         <p>&copy; 2024 My Portfolio</p>
