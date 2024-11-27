@@ -18,11 +18,14 @@
         </nav>
     </header>
 
-        <section id="home" class="home-section">
-        <div class="overlay">
-            <h1>Welcome to My Portfolio</h1>
-            <h2>I am Alankumar.P</h2>
-            <p>This is a brief introduction to who I am and what I do.</p>
+    <section class="profile-section">
+        <div class="profile-img-container">
+            <!-- Image and text inside container -->
+            <img src="{{ url_for('static', filename='images/home.jpg') }}" alt="Profile Picture" class="profile-img">
+            <div class="profile-text">
+                <h2>Hi, I'm Alankumar P</h2>
+                <p>This is my portfolio website where you can learn more about me and my work.</p>
+            </div>
         </div>
     </section>
 
