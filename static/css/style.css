@@ -206,10 +206,10 @@ footer {
     }
 
     .header nav ul li a{
-        font-size: 15px;
+        font-size: 10px;
     }
     header nav ul{
-        padding: 10px;
+        padding: 5px;
         
     }
     header nav ul li a:hover {
