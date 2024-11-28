@@ -44,7 +44,7 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 header nav ul li a:hover {
@@ -238,5 +238,10 @@ footer {
         color: #a557ff;
         /* font-size: 20px; */
     
+    }
+    header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
     }
 }
